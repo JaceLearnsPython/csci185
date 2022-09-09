@@ -1,6 +1,8 @@
 /* I add this line to all of my CSS files by default */
 body * {
     box-sizing: border-box;
+    /* border: solid 1px; */
+    margin: 20px;
 }
 
 /*
@@ -15,8 +17,24 @@ flex-wrap: 		    (no-wrap, wrap)
 
 
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex mode without other modifications flex will squash everything into one line if it can */
+}
+main section{
+    width: calc(25% - 20px);
+    min-height: 300px;
+    border: solid 1px black;
+    margin: 10px;
+}
+@media only screen and (max-width: 950){
+    main section{
+        width:calc(50% - 20px);
+    }
 
-
+}
 
 @media only screen and (max-width: 1000px) {
     /* Your code here */

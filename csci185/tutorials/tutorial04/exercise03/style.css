@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* create additional rules below:  */
+#home{
+    display: flex;
+    min-height: 100vh;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+#bio{
+    display:flex;
+    min-height: 100vh;
+    background-color: rgb(24, 95, 95);
+    justify-content: center;
+    align-items: center;
+}
+#portfolio{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(190, 215, 215);
+    justify-content: center;
+    align-items: center;
+
+}
+#contact{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(56, 107, 107);
+    justify-content: center;
+    align-items: center;
+
+}

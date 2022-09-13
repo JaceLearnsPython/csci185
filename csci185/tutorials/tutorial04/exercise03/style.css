@@ -18,6 +18,7 @@ body {
     background-color: aqua;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 #bio{
     display:flex;
@@ -25,6 +26,7 @@ body {
     background-color: rgb(24, 95, 95);
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 #portfolio{
     display: flex;
@@ -32,6 +34,7 @@ body {
     background-color: rgb(190, 215, 215);
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 #contact{
@@ -40,5 +43,6 @@ body {
     background-color: rgb(56, 107, 107);
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
